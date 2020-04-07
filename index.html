@@ -1,100 +1,106 @@
 <!DOCTYPE html>
 <html class="home">
-    <head>
-        <title>Video Scrubbing Trials</title>
-        <meta charset="utf-8" />
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="common/main.css" />
-        <link rel="preload" href="../videos/ForBiggerBlazes.mp4" as="video" />
-    </head>
-    <body class="home">
-        <div>
-            <h1>
-                Video Scrubbing Trials
-            </h1>
+  <head>
+    <title>Video Scrubbing Trials</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="common/main.css" />
+    <link rel="preload" href="../videos/ForBiggerBlazes.mp4" as="video" />
+  </head>
+  <body class="home">
+    <div>
+      <h1>
+        Video Scrubbing Trials
+      </h1>
 
-            <p class="has-line-data" data-line-start="0" data-line-end="1">
-                A collection of proof-of-concepts and prototypes of various mechanisms to enable video scrubbing based
-                experiences on the web with input signals such as the scrolling of the page.
-            </p>
-            <p class="has-line-data" data-line-start="2" data-line-end="3">
-                See <a href="https://github.com/abhishekcghosh/experiment-video-scrub">source code</a> on github.
-            </p>
-            <h2 class="code-line" data-line-start="4" data-line-end="5">
-                <a id="Approaches__Demos_4"></a>Approaches &amp; Demos
-            </h2>
-            <p class="has-line-data" data-line-start="6" data-line-end="7">
-                Read about approaches, observations and learnings in detail on my
-                <a href="https://ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/">blog post</a>.
-            </p>
-            <h4 class="code-line" data-line-start="8" data-line-end="9">
-                <a
-                    id="1_videocurrenttime_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb1videocurrenttimedemo_demohttpsvideoscrubplaygroundghoshdevvideocurrenttime_8"
-                ></a
-                >#1: video-current-time: (<a
-                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#1-video-current-time-demo"
-                    >blog</a
-                >) (<a href="/video-current-time/">demo</a>)
-            </h4>
-            <h4 class="code-line" data-line-start="10" data-line-end="11">
-                <a
-                    id="2_videoplayunpackframescanvas_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb2videoplayunpackframescanvasdemo_demohttpsvideoscrubplaygroundghoshdevvideoplayunpackframescanvas_10"
-                ></a
-                >#2: video-play-unpack-frames-canvas (<a
-                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#2-video-play-unpack-frames-canvas-demo"
-                    >blog</a
-                >) (<a href="/video-play-unpack-frames-canvas/">demo</a>)
-            </h4>
-            <h4 class="code-line" data-line-start="12" data-line-end="13">
-                <a
-                    id="3_videoseekunpackframescanvas_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb3videoseekunpackframescanvasdemo_demohttpsvideoscrubplaygroundghoshdevvideoseekunpackframescanvas_12"
-                ></a
-                >#3: video-seek-unpack-frames-canvas (<a
-                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#3-video-seek-unpack-frames-canvas-demo"
-                    >blog</a
-                >) (<a href="/video-seek-unpack-frames-canvas/">demo</a>)
-            </h4>
-            <h4 class="code-line" data-line-start="14" data-line-end="15">
-                <a
-                    id="4_videoseekmediastreamimagecapture_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb4videoseekmediastreamimagecapturedemo_demohttpsvideoscrubplaygroundghoshdevvideoseekmediastreamimagecapture_14"
-                ></a
-                >#4: video-seek-media-stream-image-capture (<a
-                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#4-video-seek-media-stream-image-capture-demo"
-                    >blog</a
-                >) (<a href="/video-seek-media-stream-image-capture/">demo</a>)
-            </h4>
-            <h4 class="code-line" data-line-start="16" data-line-end="17">
-                <a
-                    id="5_videoserverframes_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb5videoserverframesdemo_demohttpsvideoscrubplaygroundghoshdevvideoserverframes_16"
-                ></a
-                >#5: video-server-frames (<a
-                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#5-video-server-frames-demo"
-                    >blog</a
-                >) (<a href="/video-server-frames/">demo</a>)
-            </h4>
-            <h4 class="code-line" data-line-start="18" data-line-end="19">
-                <a
-                    id="6_videowasmffmpegextract_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb6videowasmffmpegextract_18"
-                ></a
-                >#6: video-wasm-ffmpeg-extract (<a
-                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#6-video-wasm-ffmpeg-extract"
-                    >blog</a
-                >)
-            </h4>
-            <h2 class="code-line" data-line-start="20" data-line-end="21"><a id="Bonus_20"></a>Bonus</h2>
-            <p class="has-line-data" data-line-start="22" data-line-end="23">
-                Try out the bonus
-                <a href="/frame-extract-tool/">Video Frame Extract Tool (experimental)</a>.
-            </p>
-            <h2 class="code-line" data-line-start="24" data-line-end="25">
-                <a id="Video_Source_Attribution_24"></a>Video Source Attribution
-            </h2>
-            <p class="has-line-data" data-line-start="26" data-line-end="27">
-                Sample video is picked up from
-                <a href="https://gist.github.com/jsturgis/3b19447b304616f18657">public test video sources</a>. All
-                copyrights belong to the original owners.
-            </p>
-        </div>
-    </body>
+      <p class="has-line-data" data-line-start="0" data-line-end="1">
+        A collection of proof-of-concepts and prototypes of various mechanisms
+        to enable video scrubbing based experiences on the web with input
+        signals such as the scrolling of the page.
+      </p>
+      <!--            <p class="has-line-data" data-line-start="2" data-line-end="3">-->
+      <!--                See <a href="https://github.com/abhishekcghosh/experiment-video-scrub">source code</a> on github.-->
+      <!--            </p>-->
+      <h2 class="code-line" data-line-start="4" data-line-end="5">
+        <a id="Approaches__Demos_4"></a>Approaches &amp; Demos
+      </h2>
+      <!--            <p class="has-line-data" data-line-start="6" data-line-end="7">-->
+      <!--                Read about approaches, observations and learnings in detail on my-->
+      <!--                <a href="https://ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/">blog post</a>.-->
+      <!--            </p>-->
+      <h4 class="code-line" data-line-start="8" data-line-end="9">
+        <a
+          id="1_videocurrenttime_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb1videocurrenttimedemo_demohttpsvideoscrubplaygroundghoshdevvideocurrenttime_8"
+        ></a
+        >#1: video-current-time: (<a
+          href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#1-video-current-time-demo"
+          >blog</a
+        >) (<a href="/video-current-time/index.html">demo</a>)
+      </h4>
+      <!--            <h4 class="code-line" data-line-start="10" data-line-end="11">-->
+      <!--                <a-->
+      <!--                    id="2_videoplayunpackframescanvas_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb2videoplayunpackframescanvasdemo_demohttpsvideoscrubplaygroundghoshdevvideoplayunpackframescanvas_10"-->
+      <!--                ></a-->
+      <!--                >#2: video-play-unpack-frames-canvas (<a-->
+      <!--                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#2-video-play-unpack-frames-canvas-demo"-->
+      <!--                    >blog</a-->
+      <!--                >) (<a href="/video-play-unpack-frames-canvas/index.html">demo</a>)-->
+      <!--            </h4>-->
+      <h4 class="code-line" data-line-start="12" data-line-end="13">
+        <a
+          id="3_videoseekunpackframescanvas_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb3videoseekunpackframescanvasdemo_demohttpsvideoscrubplaygroundghoshdevvideoseekunpackframescanvas_12"
+        ></a
+        >#3: video-seek-unpack-frames-canvas (<a
+          href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#3-video-seek-unpack-frames-canvas-demo"
+          >blog</a
+        >) (<a href="/video-seek-unpack-frames-canvas/index.html">demo</a>)
+      </h4>
+      <!--            <h4 class="code-line" data-line-start="14" data-line-end="15">-->
+      <!--                <a-->
+      <!--                    id="4_videoseekmediastreamimagecapture_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb4videoseekmediastreamimagecapturedemo_demohttpsvideoscrubplaygroundghoshdevvideoseekmediastreamimagecapture_14"-->
+      <!--                ></a-->
+      <!--                >#4: video-seek-media-stream-image-capture (<a-->
+      <!--                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#4-video-seek-media-stream-image-capture-demo"-->
+      <!--                    >blog</a-->
+      <!--                >) (<a href="/video-seek-media-stream-image-capture/index.html">demo</a>)-->
+      <!--            </h4>-->
+      <h4 class="code-line" data-line-start="16" data-line-end="17">
+        <a
+          id="5_videoserverframes_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb5videoserverframesdemo_demohttpsvideoscrubplaygroundghoshdevvideoserverframes_16"
+        ></a
+        >#5: video-server-frames (<a
+          href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#5-video-server-frames-demo"
+          >blog</a
+        >) (<a href="/video-server-frames/index.html">demo</a>)
+      </h4>
+      <!--            <h4 class="code-line" data-line-start="18" data-line-end="19">-->
+      <!--                <a-->
+      <!--                    id="6_videowasmffmpegextract_bloghttpswwwghoshdevpostsplayingwithvideoscrubbinganimationsontheweb6videowasmffmpegextract_18"-->
+      <!--                ></a-->
+      <!--                >#6: video-wasm-ffmpeg-extract (<a-->
+      <!--                    href="https://www.ghosh.dev/posts/playing-with-video-scrubbing-animations-on-the-web/#6-video-wasm-ffmpeg-extract"-->
+      <!--                    >blog</a-->
+      <!--                >)-->
+      <!--            </h4>-->
+      <h2 class="code-line" data-line-start="20" data-line-end="21">
+        <a id="Bonus_20"></a>Bonus
+      </h2>
+      <p class="has-line-data" data-line-start="22" data-line-end="23">
+        Try out the bonus
+        <a href="/frame-extract-tool/index.html"
+          >Video Frame Extract Tool (experimental)</a
+        >.
+      </p>
+      <h2 class="code-line" data-line-start="24" data-line-end="25">
+        <a id="Video_Source_Attribution_24"></a>Video Source Attribution
+      </h2>
+      <p class="has-line-data" data-line-start="26" data-line-end="27">
+        Sample video is picked up from
+        <a href="https://gist.github.com/jsturgis/3b19447b304616f18657"
+          >public test video sources</a
+        >. All copyrights belong to the original owners.
+      </p>
+    </div>
+  </body>
 </html>
